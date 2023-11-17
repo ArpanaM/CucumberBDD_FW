@@ -1,0 +1,81 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2023-11-15T11:54:57.866Z",
+    "line" : 2,
+    "name" : "Verify Login for valid inputs and display message Login Successful",
+    "description" : "",
+    "id" : "login-action;verify-login-for-valid-inputs-and-display-message-login-successful",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 7010400,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "user is on home page",
+      "match" : {
+        "location" : "stepDefinitions.TS001_LoginStepDefinition.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user clicks on Signin link",
+      "match" : {
+        "location" : "stepDefinitions.TS001_LoginStepDefinition.user_clicks_on_signin_link()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "next page opens check title",
+      "match" : {
+        "location" : "stepDefinitions.TS001_LoginStepDefinition.next_page_opens_check_title()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user enter user name and password clicks on submit button",
+      "match" : {
+        "location" : "stepDefinitions.TS001_LoginStepDefinition.user_enter_user_name_and_password_clicks_on_submit_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "check user and display Login successful message",
+      "match" : {
+        "location" : "stepDefinitions.TS001_LoginStepDefinition.check_user_and_display_login_successful_message()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 997300,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "Close Application",
+      "match" : {
+        "location" : "stepDefinitions.TS001_LoginStepDefinition.close_application()"
+      },
+      "keyword" : "And "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TS001_Login.feature",
+  "tags" : [ ]
+} ]
